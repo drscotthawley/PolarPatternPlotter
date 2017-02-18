@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47344AC61D00A9C700B4F15F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47344AC51D00A9C700B4F15F /* AppDelegate.swift */; };
+		47344AC81D00A9C700B4F15F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47344AC71D00A9C700B4F15F /* ViewController.swift */; };
+		47344ACB1D00A9C700B4F15F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47344AC91D00A9C700B4F15F /* Main.storyboard */; };
+		47344ACE1D00A9C800B4F15F /* PolarPatternPlotter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47344ACC1D00A9C700B4F15F /* PolarPatternPlotter.xcdatamodeld */; };
+		47344AD01D00A9C800B4F15F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47344ACF1D00A9C800B4F15F /* Assets.xcassets */; };
+		47344AD31D00A9C800B4F15F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47344AD11D00A9C800B4F15F /* LaunchScreen.storyboard */; };
+		47344ADE1D00A9C800B4F15F /* PolarPatternPlotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47344ADD1D00A9C800B4F15F /* PolarPatternPlotterTests.swift */; };
+		47344AE91D00A9C800B4F15F /* PolarPatternPlotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47344AE81D00A9C800B4F15F /* PolarPatternPlotterUITests.swift */; };
+		47344AF71D00AABD00B4F15F /* LeanBCurveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47344AF61D00AABD00B4F15F /* LeanBCurveView.swift */; };
+		47344AF91D00AADB00B4F15F /* TickMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47344AF81D00AADB00B4F15F /* TickMarkView.swift */; };
+		47344AFB1D00AAFD00B4F15F /* RingBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47344AFA1D00AAFD00B4F15F /* RingBuffer.swift */; };
+		47CF2BD71DB016F9002FCEFD /* MotionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CF2BD61DB016F9002FCEFD /* MotionKit.swift */; };
+		4CDC2724FF377D5A7F07A3A0 /* Pods_PolarPatternPlotterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50DBC8E36E9B9C06C65B7E1 /* Pods_PolarPatternPlotterUITests.framework */; };
+		B319ED62153AC85B97EFAA93 /* Pods_PolarPatternPlotter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECBF8DED0730D98EBD784F9 /* Pods_PolarPatternPlotter.framework */; };
+		CEAAC5C759E601EE5AFB933D /* Pods_PolarPatternPlotterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF29F64A006C910B3EF513C /* Pods_PolarPatternPlotterTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47344ADA1D00A9C800B4F15F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47344ABA1D00A9C700B4F15F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47344AC11D00A9C700B4F15F;
+			remoteInfo = PolarPatternPlotter;
+		};
+		47344AE51D00A9C800B4F15F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47344ABA1D00A9C700B4F15F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47344AC11D00A9C700B4F15F;
+			remoteInfo = PolarPatternPlotter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2ECBF8DED0730D98EBD784F9 /* Pods_PolarPatternPlotter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PolarPatternPlotter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		414562C995E05CC762F18238 /* Pods-PolarPatternPlotter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PolarPatternPlotter.release.xcconfig"; path = "Pods/Target Support Files/Pods-PolarPatternPlotter/Pods-PolarPatternPlotter.release.xcconfig"; sourceTree = "<group>"; };
+		47344AC21D00A9C700B4F15F /* PolarPatternPlotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PolarPatternPlotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47344AC51D00A9C700B4F15F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47344AC71D00A9C700B4F15F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47344ACA1D00A9C700B4F15F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47344ACD1D00A9C700B4F15F /* PolarPatternPlotter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PolarPatternPlotter.xcdatamodel; sourceTree = "<group>"; };
+		47344ACF1D00A9C800B4F15F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47344AD21D00A9C800B4F15F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47344AD41D00A9C800B4F15F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47344AD91D00A9C800B4F15F /* PolarPatternPlotterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolarPatternPlotterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47344ADD1D00A9C800B4F15F /* PolarPatternPlotterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolarPatternPlotterTests.swift; sourceTree = "<group>"; };
+		47344ADF1D00A9C800B4F15F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47344AE41D00A9C800B4F15F /* PolarPatternPlotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolarPatternPlotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47344AE81D00A9C800B4F15F /* PolarPatternPlotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolarPatternPlotterUITests.swift; sourceTree = "<group>"; };
+		47344AEA1D00A9C800B4F15F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47344AF61D00AABD00B4F15F /* LeanBCurveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeanBCurveView.swift; sourceTree = "<group>"; };
+		47344AF81D00AADB00B4F15F /* TickMarkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TickMarkView.swift; sourceTree = "<group>"; };
+		47344AFA1D00AAFD00B4F15F /* RingBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingBuffer.swift; sourceTree = "<group>"; };
+		47CF2BD61DB016F9002FCEFD /* MotionKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionKit.swift; sourceTree = "<group>"; };
+		4CF741D7105A718EC20E3C8A /* Pods-PolarPatternPlotterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PolarPatternPlotterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PolarPatternPlotterUITests/Pods-PolarPatternPlotterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		80731C443372739BB08A46DD /* Pods-PolarPatternPlotter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PolarPatternPlotter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PolarPatternPlotter/Pods-PolarPatternPlotter.debug.xcconfig"; sourceTree = "<group>"; };
+		A5AC0528A69DF48D45DC3D42 /* Pods-PolarPatternPlotterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PolarPatternPlotterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PolarPatternPlotterUITests/Pods-PolarPatternPlotterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCE825A1DD231C2F3D8A9AC6 /* Pods-PolarPatternPlotterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PolarPatternPlotterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PolarPatternPlotterTests/Pods-PolarPatternPlotterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D50DBC8E36E9B9C06C65B7E1 /* Pods_PolarPatternPlotterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PolarPatternPlotterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E146DEC22FC19A416761A903 /* Pods-PolarPatternPlotterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PolarPatternPlotterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PolarPatternPlotterTests/Pods-PolarPatternPlotterTests.release.xcconfig"; sourceTree = "<group>"; };
+		FFF29F64A006C910B3EF513C /* Pods_PolarPatternPlotterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PolarPatternPlotterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47344ABF1D00A9C700B4F15F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B319ED62153AC85B97EFAA93 /* Pods_PolarPatternPlotter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47344AD61D00A9C800B4F15F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAAC5C759E601EE5AFB933D /* Pods_PolarPatternPlotterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47344AE11D00A9C800B4F15F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDC2724FF377D5A7F07A3A0 /* Pods_PolarPatternPlotterUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A287A2B7DE9E31F2DEBDC21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80731C443372739BB08A46DD /* Pods-PolarPatternPlotter.debug.xcconfig */,
+				414562C995E05CC762F18238 /* Pods-PolarPatternPlotter.release.xcconfig */,
+				BCE825A1DD231C2F3D8A9AC6 /* Pods-PolarPatternPlotterTests.debug.xcconfig */,
+				E146DEC22FC19A416761A903 /* Pods-PolarPatternPlotterTests.release.xcconfig */,
+				A5AC0528A69DF48D45DC3D42 /* Pods-PolarPatternPlotterUITests.debug.xcconfig */,
+				4CF741D7105A718EC20E3C8A /* Pods-PolarPatternPlotterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		47344AB91D00A9C700B4F15F = {
+			isa = PBXGroup;
+			children = (
+				47344AC41D00A9C700B4F15F /* PolarPatternPlotter */,
+				47344ADC1D00A9C800B4F15F /* PolarPatternPlotterTests */,
+				47344AE71D00A9C800B4F15F /* PolarPatternPlotterUITests */,
+				47344AC31D00A9C700B4F15F /* Products */,
+				3A287A2B7DE9E31F2DEBDC21 /* Pods */,
+				F30A0083C6668A5B45373E03 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47344AC31D00A9C700B4F15F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47344AC21D00A9C700B4F15F /* PolarPatternPlotter.app */,
+				47344AD91D00A9C800B4F15F /* PolarPatternPlotterTests.xctest */,
+				47344AE41D00A9C800B4F15F /* PolarPatternPlotterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47344AC41D00A9C700B4F15F /* PolarPatternPlotter */ = {
+			isa = PBXGroup;
+			children = (
+				47344AC51D00A9C700B4F15F /* AppDelegate.swift */,
+				47344AC71D00A9C700B4F15F /* ViewController.swift */,
+				47344AF61D00AABD00B4F15F /* LeanBCurveView.swift */,
+				47CF2BD61DB016F9002FCEFD /* MotionKit.swift */,
+				47344AF81D00AADB00B4F15F /* TickMarkView.swift */,
+				47344AFA1D00AAFD00B4F15F /* RingBuffer.swift */,
+				47344AC91D00A9C700B4F15F /* Main.storyboard */,
+				47344ACF1D00A9C800B4F15F /* Assets.xcassets */,
+				47344AD11D00A9C800B4F15F /* LaunchScreen.storyboard */,
+				47344AD41D00A9C800B4F15F /* Info.plist */,
+				47344ACC1D00A9C700B4F15F /* PolarPatternPlotter.xcdatamodeld */,
+			);
+			path = PolarPatternPlotter;
+			sourceTree = "<group>";
+		};
+		47344ADC1D00A9C800B4F15F /* PolarPatternPlotterTests */ = {
+			isa = PBXGroup;
+			children = (
+				47344ADD1D00A9C800B4F15F /* PolarPatternPlotterTests.swift */,
+				47344ADF1D00A9C800B4F15F /* Info.plist */,
+			);
+			path = PolarPatternPlotterTests;
+			sourceTree = "<group>";
+		};
+		47344AE71D00A9C800B4F15F /* PolarPatternPlotterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47344AE81D00A9C800B4F15F /* PolarPatternPlotterUITests.swift */,
+				47344AEA1D00A9C800B4F15F /* Info.plist */,
+			);
+			path = PolarPatternPlotterUITests;
+			sourceTree = "<group>";
+		};
+		F30A0083C6668A5B45373E03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2ECBF8DED0730D98EBD784F9 /* Pods_PolarPatternPlotter.framework */,
+				FFF29F64A006C910B3EF513C /* Pods_PolarPatternPlotterTests.framework */,
+				D50DBC8E36E9B9C06C65B7E1 /* Pods_PolarPatternPlotterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47344AC11D00A9C700B4F15F /* PolarPatternPlotter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47344AED1D00A9C800B4F15F /* Build configuration list for PBXNativeTarget "PolarPatternPlotter" */;
+			buildPhases = (
+				A03CA3AD0582BD3A54D60837 /* [CP] Check Pods Manifest.lock */,
+				47344ABE1D00A9C700B4F15F /* Sources */,
+				47344ABF1D00A9C700B4F15F /* Frameworks */,
+				47344AC01D00A9C700B4F15F /* Resources */,
+				AD29E9A4D3E3672F7EFDF634 /* [CP] Embed Pods Frameworks */,
+				46A03CFD8595B0FD09EA4766 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PolarPatternPlotter;
+			productName = PolarPatternPlotter;
+			productReference = 47344AC21D00A9C700B4F15F /* PolarPatternPlotter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47344AD81D00A9C800B4F15F /* PolarPatternPlotterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47344AF01D00A9C800B4F15F /* Build configuration list for PBXNativeTarget "PolarPatternPlotterTests" */;
+			buildPhases = (
+				0002671A42FD258930986163 /* [CP] Check Pods Manifest.lock */,
+				47344AD51D00A9C800B4F15F /* Sources */,
+				47344AD61D00A9C800B4F15F /* Frameworks */,
+				47344AD71D00A9C800B4F15F /* Resources */,
+				73D2385BF978AE179474B2B8 /* [CP] Embed Pods Frameworks */,
+				DC9D593FF28525B5648EB260 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47344ADB1D00A9C800B4F15F /* PBXTargetDependency */,
+			);
+			name = PolarPatternPlotterTests;
+			productName = PolarPatternPlotterTests;
+			productReference = 47344AD91D00A9C800B4F15F /* PolarPatternPlotterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47344AE31D00A9C800B4F15F /* PolarPatternPlotterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47344AF31D00A9C800B4F15F /* Build configuration list for PBXNativeTarget "PolarPatternPlotterUITests" */;
+			buildPhases = (
+				9122C2BD5A15372FD35BC2E9 /* [CP] Check Pods Manifest.lock */,
+				47344AE01D00A9C800B4F15F /* Sources */,
+				47344AE11D00A9C800B4F15F /* Frameworks */,
+				47344AE21D00A9C800B4F15F /* Resources */,
+				66CC1D83FCC7D1D996D00B4E /* [CP] Copy Pods Resources */,
+				F29CF115FBDD0868C8FCCED2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47344AE61D00A9C800B4F15F /* PBXTargetDependency */,
+			);
+			name = PolarPatternPlotterUITests;
+			productName = PolarPatternPlotterUITests;
+			productReference = 47344AE41D00A9C800B4F15F /* PolarPatternPlotterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47344ABA1D00A9C700B4F15F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Scott Hawley";
+				TargetAttributes = {
+					47344AC11D00A9C700B4F15F = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+					};
+					47344AD81D00A9C800B4F15F = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = 47344AC11D00A9C700B4F15F;
+					};
+					47344AE31D00A9C800B4F15F = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = 47344AC11D00A9C700B4F15F;
+					};
+				};
+			};
+			buildConfigurationList = 47344ABD1D00A9C700B4F15F /* Build configuration list for PBXProject "PolarPatternPlotter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47344AB91D00A9C700B4F15F;
+			productRefGroup = 47344AC31D00A9C700B4F15F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47344AC11D00A9C700B4F15F /* PolarPatternPlotter */,
+				47344AD81D00A9C800B4F15F /* PolarPatternPlotterTests */,
+				47344AE31D00A9C800B4F15F /* PolarPatternPlotterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47344AC01D00A9C700B4F15F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47344AD31D00A9C800B4F15F /* LaunchScreen.storyboard in Resources */,
+				47344AD01D00A9C800B4F15F /* Assets.xcassets in Resources */,
+				47344ACB1D00A9C700B4F15F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47344AD71D00A9C800B4F15F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47344AE21D00A9C800B4F15F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0002671A42FD258930986163 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		46A03CFD8595B0FD09EA4766 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PolarPatternPlotter/Pods-PolarPatternPlotter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66CC1D83FCC7D1D996D00B4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PolarPatternPlotterUITests/Pods-PolarPatternPlotterUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73D2385BF978AE179474B2B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PolarPatternPlotterTests/Pods-PolarPatternPlotterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9122C2BD5A15372FD35BC2E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A03CA3AD0582BD3A54D60837 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD29E9A4D3E3672F7EFDF634 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PolarPatternPlotter/Pods-PolarPatternPlotter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC9D593FF28525B5648EB260 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PolarPatternPlotterTests/Pods-PolarPatternPlotterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F29CF115FBDD0868C8FCCED2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PolarPatternPlotterUITests/Pods-PolarPatternPlotterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47344ABE1D00A9C700B4F15F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47344AC81D00A9C700B4F15F /* ViewController.swift in Sources */,
+				47344AF71D00AABD00B4F15F /* LeanBCurveView.swift in Sources */,
+				47344ACE1D00A9C800B4F15F /* PolarPatternPlotter.xcdatamodeld in Sources */,
+				47344AC61D00A9C700B4F15F /* AppDelegate.swift in Sources */,
+				47CF2BD71DB016F9002FCEFD /* MotionKit.swift in Sources */,
+				47344AF91D00AADB00B4F15F /* TickMarkView.swift in Sources */,
+				47344AFB1D00AAFD00B4F15F /* RingBuffer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47344AD51D00A9C800B4F15F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47344ADE1D00A9C800B4F15F /* PolarPatternPlotterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47344AE01D00A9C800B4F15F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47344AE91D00A9C800B4F15F /* PolarPatternPlotterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47344ADB1D00A9C800B4F15F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47344AC11D00A9C700B4F15F /* PolarPatternPlotter */;
+			targetProxy = 47344ADA1D00A9C800B4F15F /* PBXContainerItemProxy */;
+		};
+		47344AE61D00A9C800B4F15F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47344AC11D00A9C700B4F15F /* PolarPatternPlotter */;
+			targetProxy = 47344AE51D00A9C800B4F15F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47344AC91D00A9C700B4F15F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47344ACA1D00A9C700B4F15F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47344AD11D00A9C800B4F15F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47344AD21D00A9C800B4F15F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47344AEB1D00A9C800B4F15F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47344AEC1D00A9C800B4F15F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47344AEE1D00A9C800B4F15F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80731C443372739BB08A46DD /* Pods-PolarPatternPlotter.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PolarPatternPlotter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scotthawley.com.PolarPatternPlotter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		47344AEF1D00A9C800B4F15F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414562C995E05CC762F18238 /* Pods-PolarPatternPlotter.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PolarPatternPlotter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scotthawley.com.PolarPatternPlotter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		47344AF11D00A9C800B4F15F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE825A1DD231C2F3D8A9AC6 /* Pods-PolarPatternPlotterTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PolarPatternPlotterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scotthawley.com.PolarPatternPlotterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PolarPatternPlotter.app/PolarPatternPlotter";
+			};
+			name = Debug;
+		};
+		47344AF21D00A9C800B4F15F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E146DEC22FC19A416761A903 /* Pods-PolarPatternPlotterTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PolarPatternPlotterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scotthawley.com.PolarPatternPlotterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PolarPatternPlotter.app/PolarPatternPlotter";
+			};
+			name = Release;
+		};
+		47344AF41D00A9C800B4F15F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5AC0528A69DF48D45DC3D42 /* Pods-PolarPatternPlotterUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PolarPatternPlotterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scotthawley.com.PolarPatternPlotterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PolarPatternPlotter;
+			};
+			name = Debug;
+		};
+		47344AF51D00A9C800B4F15F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CF741D7105A718EC20E3C8A /* Pods-PolarPatternPlotterUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PolarPatternPlotterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scotthawley.com.PolarPatternPlotterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PolarPatternPlotter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47344ABD1D00A9C700B4F15F /* Build configuration list for PBXProject "PolarPatternPlotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47344AEB1D00A9C800B4F15F /* Debug */,
+				47344AEC1D00A9C800B4F15F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47344AED1D00A9C800B4F15F /* Build configuration list for PBXNativeTarget "PolarPatternPlotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47344AEE1D00A9C800B4F15F /* Debug */,
+				47344AEF1D00A9C800B4F15F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47344AF01D00A9C800B4F15F /* Build configuration list for PBXNativeTarget "PolarPatternPlotterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47344AF11D00A9C800B4F15F /* Debug */,
+				47344AF21D00A9C800B4F15F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47344AF31D00A9C800B4F15F /* Build configuration list for PBXNativeTarget "PolarPatternPlotterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47344AF41D00A9C800B4F15F /* Debug */,
+				47344AF51D00A9C800B4F15F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		47344ACC1D00A9C700B4F15F /* PolarPatternPlotter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				47344ACD1D00A9C700B4F15F /* PolarPatternPlotter.xcdatamodel */,
+			);
+			currentVersion = 47344ACD1D00A9C700B4F15F /* PolarPatternPlotter.xcdatamodel */;
+			path = PolarPatternPlotter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 47344ABA1D00A9C700B4F15F /* Project object */;
+}

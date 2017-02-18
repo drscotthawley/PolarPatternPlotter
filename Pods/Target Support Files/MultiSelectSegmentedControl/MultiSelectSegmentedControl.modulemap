@@ -1,0 +1,6 @@
+framework module MultiSelectSegmentedControl {
+  umbrella header "MultiSelectSegmentedControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

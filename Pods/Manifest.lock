@@ -1,0 +1,15 @@
+PODS:
+  - AudioKit (3.4.2)
+  - MultiSelectSegmentedControl (1.1.0)
+
+DEPENDENCIES:
+  - AudioKit
+  - MultiSelectSegmentedControl
+
+SPEC CHECKSUMS:
+  AudioKit: ee4ac6bf09b710eec46ec8ed983189ae4ba5d5af
+  MultiSelectSegmentedControl: 54fb23c997b971eff621cfcf965ff1613d99c3d2
+
+PODFILE CHECKSUM: 9b65dcb7ed90e2e46c865959e7852bf945a8e9d2
+
+COCOAPODS: 1.1.0.rc.3
