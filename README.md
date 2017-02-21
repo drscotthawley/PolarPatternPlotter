@@ -7,7 +7,7 @@ Source code is provided here for those who'd like to help improve the functional
 
 [PPP Web Site](http://www.scotthawley.com/ppp/)
 
-Paper accepted for publication in *The Physics Teacher*.  [Link to pre-print version on arXiv.org](link goes here)
+Paper accepted for publication in *The Physics Teacher*.  [Link to pre-print version on arXiv.org](https://arxiv.org/abs/1702.06072)
 
 Screenshots:
 
