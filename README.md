@@ -14,4 +14,4 @@ Screenshots:
 <img src="http://www.scotthawley.com/ppp/screenshot_real_sm57.jpg" width=200px>
 <img src="http://www.scotthawley.com/ppp/screenshot_twospeakers_250hz_.PNG" width=200px>
 
-Author: Scott Halwley
+Author: Scott Hawley
