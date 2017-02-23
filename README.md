@@ -9,9 +9,15 @@ Source code is provided here for those who'd like to help improve the functional
 
 Paper accepted for publication in *The Physics Teacher*.  [Link to pre-print version on arXiv.org](https://arxiv.org/abs/1702.06072)
 
-Screenshots:
+## Screenshots:
 
 <img src="http://www.scotthawley.com/ppp/screenshot_real_sm57.jpg" width=200px>
 <img src="http://www.scotthawley.com/ppp/screenshot_twospeakers_250hz_.PNG" width=200px>
+
+
+## Features to be added (you can help!):
+* A variable frequency-filter, to reject background noise and to allow simultaneous experiments (at different frequencies).  This may be added as early as March 1, 2016; check back later.
+* Corrections to angular drift.  Currently there's a slider but it's not enabled.  The code for this isn't quite working and it's commented-out in the source.
+
 
 Author: Scott Hawley
