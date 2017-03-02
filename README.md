@@ -9,6 +9,13 @@ Source code is provided here for those who'd like to help improve the functional
 
 Paper accepted for publication in *The Physics Teacher*.  [Link to pre-print version on arXiv.org](https://arxiv.org/abs/1702.06072)
 
+## Building
+
+* Make sure you have Xcode installed.
+* Clone the repo.
+* Open the .xcworkspace file with Xcode, e.g. `$ open PolarPatternPlotter.xcworkspace`
+* Choose "Run" from the "Build" dropdown, or just click the "Play" (▶️) button.
+
 ## Screenshots:
 
 <img src="http://www.scotthawley.com/ppp/screenshot_real_sm57.jpg" width=200px>
