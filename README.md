@@ -7,7 +7,8 @@ Source code is provided here for those who'd like to help improve the functional
 
 [PPP Web Site](http://www.scotthawley.com/ppp/)
 
-Paper accepted for publication in *The Physics Teacher*.  [Link to pre-print version on arXiv.org](https://arxiv.org/abs/1702.06072)
+Paper: "Visualizing Sound Directivity via Smartphone Sensors," by S.H. Hawley and R.E. McClain Jr.,
+[The Physics Teacher 56, 72 (2018)](https://doi.org/10.1119/1.5021430).   Also [pre-print on arXiv.org](https://arxiv.org/abs/1702.06072).
 
 ## Building
 
@@ -30,4 +31,4 @@ Paper accepted for publication in *The Physics Teacher*.  [Link to pre-print ver
 * Some kind of "burst mode," where the phone outputs the test signal and rejects sounds that arrive after some (tunable) interval, to allow for use in reflective rooms. 
 
 
-Author: Scott Hawley
+Author: [Scott Hawley](http://hedges.belmont.edu/~shawley/)
