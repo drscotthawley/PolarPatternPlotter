@@ -13,7 +13,7 @@ Paper: "Visualizing Sound Directivity via Smartphone Sensors," by S.H. Hawley an
 ## Building
 
 * Make sure you have Xcode installed.
-* Clone the repo.
+* Clone this GitHub repository.
 * Open the .xcworkspace file with Xcode, e.g. `$ open PolarPatternPlotter.xcworkspace`
 * Choose "Run" from the "Build" dropdown, or just click the "Play" (▶️) button.
 
