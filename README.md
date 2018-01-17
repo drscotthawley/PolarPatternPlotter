@@ -27,6 +27,7 @@ Paper accepted for publication in *The Physics Teacher*.  [Link to pre-print ver
 * Corrections to angular drift.  Currently there's a slider but it's *not enabled*.  The code for this isn't quite working and it's commented-out in the source.
 * Interpolate / smooth the data, and do polar-harmonic decomposition
 * Port it to Android
+* Some kind of "burst mode," where the phone outputs the test signal and rejects sounds that arrive after some (tunable) interval, to allow for use in reflective rooms. 
 
 
 Author: Scott Hawley
